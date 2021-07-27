@@ -1,1 +1,1 @@
-# React/Redux SPA Ecommerce Application
+# React/Redux SPA Ecommerce Application WIP
