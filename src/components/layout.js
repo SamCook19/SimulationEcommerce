@@ -14,7 +14,7 @@ export default class Layout extends Component {
           <Router>
           
           <Switch>
-           
+           <Route exact path="/cart" component={Cart}/>
             <Route exact path="/checkout" component={Checkout}/>
             
           </Switch>

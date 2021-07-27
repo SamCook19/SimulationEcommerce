@@ -1,6 +1,14 @@
 import React, { Component } from 'react';
 
 class CreditInfo extends Component {
+    constructor(props) {
+        super(props);
+        this.state={
+            
+        }
+      }
+
+
     render() {
         return (
             <div>
@@ -54,7 +62,7 @@ class CreditInfo extends Component {
                 </div>
             </div>
             <ul class="nav nav-pills nav-stacked">
-                <li class="active"><a href="#"><span class="badge pull-right"><span class="glyphicon glyphicon-usd"></span></span> Final Payment</a>
+                <li class="active"><a href="#"><span class="badge pull-right"><span class="glyphicon glyphicon-usd"></span></span> Final Payment {this.props.product}</a>
                 </li>
             </ul>
             <br/>

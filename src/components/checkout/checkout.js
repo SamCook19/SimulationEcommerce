@@ -21,10 +21,6 @@ class Checkout extends Component {
             </div>
             
             </div>
-            
-            <div className="col-md-4 order-md-2 mb-4">
-                <div className="billing-container"><CartComponent /></div>
-            </div>
             </div>
             <div className="row">
                 <div className="col-md-8 order-md-1">

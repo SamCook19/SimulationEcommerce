@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Provider } from 'react-redux';
+import { Provider, Connect } from 'react-redux';
 import { createStore, combineReducers } from 'redux';
 import {
 	Cart,
@@ -28,6 +28,7 @@ const store = createStore(
     
   })
 );
+
 
 store.dispatch(setCartCurrency("USD"));
 
@@ -66,7 +67,7 @@ class CartComponent extends Component {
     const checkoutButtonElement = (
       <CheckoutButton
         getLocalization={getCheckoutButtonLocalization}
-        checkoutURL="/to/my/checkout"
+        checkoutURL="/checkout"
       />
     );
     return (
@@ -86,5 +87,8 @@ class CartComponent extends Component {
     );
   }
 }
+
+
+
 
 export default CartComponent;
